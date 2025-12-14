@@ -51,11 +51,11 @@ El proyecto incluye pruebas automáticas para validar el correcto funcionamiento
 Estas pruebas verifican la creación, actualización y eliminación de tareas, así como el correcto manejo de la base de datos.
 
 Estructura del proyecto
-task_manager/
+Organizador/
 ├─ src/
-│ └─ task_manager/
+│ └─ Organizador/
 │ ├─ cli.py # Interfaz de línea de comandos
-│ ├─ tasks.py # Modelo de datos (Task)
+│ ├─ tareas.py # Modelo de datos (Task)
 │ ├─ storage.py # Persistencia en SQLite
 │ └─ utils.py # Funciones auxiliares
 ├─ tests/ # Pruebas automáticas
